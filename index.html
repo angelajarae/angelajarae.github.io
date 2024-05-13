@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     <!-- Referencia a fuente Raleway -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +14,12 @@
     <title> Mi Portafolio</title>
 </head>
 <body>
-    <!-- Sección del Menú  -->
     <div class="todo">
+        <!-- Sección del Menú  -->
         <section class="menu">
             <header class="menu__header">
                 <img src="assets\vector.png">
-                <h3 class="menu__title">Angela Jara Espinoza</h3>
+                <h3 class="menu__title">Angela</h3>
             </header>
             <nav>
                 <ul class="menu__list">
@@ -27,16 +28,14 @@
                     <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                     <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                     <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                    <li class="menu__list__item"><a href="#contacto">angelajaraespinoza@gmail.com</a></li>
+                    <li class="menu__list__item menu__list__item__contacto"><a href="#contacto">angelajaraespinoza@gmail.com</a></li>
                 </ul>
-                <li class="menu__list__item__contato"><a href="#contacto">angelajaraespinoza@gmail.com</a></li>
             </nav>
         </section>
 
         <!-- Sección del Header/Title/Hero -->
         <section class="title">
-            <div class="title__div">
-                <img class="title__profile" src="assets\profile.png">
+            <div class="title__div">   
                 <div class="title__container">
                     <h2 class="title__bio">Hola, mi nombre es Angela Jara Espinoza</h2>
                     <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
@@ -47,6 +46,9 @@
                         <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
                         <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
                     </ul>
+                </div>
+                <div class="title__profile">
+                    <img  src="assets\profile.png">
                 </div>
             </div>
         </section>
@@ -65,48 +67,48 @@
         <!-- Sección de Skills -->
         <section class="skills" id="skills">
             <h3 class="skills__title">Skills</h3>
-                <div class="skills__line">
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="assets\htlm.png"></li>
-                            <li class="skills__name"> HTML</li>
-                        </ul>
-                    </div>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="assets\htlm.png"></li>
+                        <li class="skills__name"> HTML</li>
+                    </ul>
+                </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                            <li class="skills__name">Javascript</li>
-                        </ul>
-                    </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                            <li class="skills__name">Java</li>
-                        </ul>
-                    </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
+                        <li class="skills__name">Java</li>
+                    </ul>
+                </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                            <li class="skills__name">Python</li>
-                        </ul>
-                    </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                        <li class="skills__name">Python</li>
+                    </ul>
+                </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                            <li class="skills__name">React</li>
-                        </ul>
-                    </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                        <li class="skills__name">React</li>
+                    </ul>
+                </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                            <li class="skills__name">CSS</li>
-                        </ul>
-                    </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -192,24 +194,25 @@
         <!-- Sección de Experiencia Profesional/Proyectos-->
         <section class="experience" id="xp">
             <h2 class="experience__section__title" >Experiencia Profesional</h2>
-            <div class="experiencie__box">
+
+            <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets\decod_print.png">
-                <div class="experience__info"
+                <div class="experience__img"><img  src="assets\decod_print.png"></div>
+                <div class="experience__info">
                     <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Alura Codificador </h3>
-                        <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                                <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                        </div>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                    </div>
                 </div>
             </div>  
 
-            <div class="experiencie__box">
+            <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets\forca_print.png">
-                <div class="experience__info"
+                <div class="experience__img"><img  src="assets\forca_print.png"></div>
+                <div class="experience__info">
                     <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                         <div class="experience__description">
@@ -222,8 +225,8 @@
 
             <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets\secretcode_print.png">
-                <div class="experience__info-container"
+                <div class="experience__img"><img  src="assets\secretcode_print.png"></div>
+                <div class="experience__info">
                     <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                         <div class="experience__description">
@@ -235,8 +238,8 @@
             </div>  
 
             <div class="experience__box">
-                <img class="experience__img" src="assets\forca2_print.png">
-                <div class="experience__info-container"
+                <div class="experience__img"><img  src="assets\forca2_print.png"></div>
+                <div class="experience__info">
                 <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                         <div class="experience__description">
