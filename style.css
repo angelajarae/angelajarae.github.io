@@ -258,6 +258,7 @@ section.experience{
     color: rgba(42, 122, 228, 1);
     background-color: none;
     border: 1px solid rgba(42, 122, 228, 1);
+    cursor: pointer;
 }
 .experience__botao--demo{
     align-self: self-start;
@@ -265,6 +266,7 @@ section.experience{
     color: white;
     background-color: rgba(42, 122, 228, 1);
     border: none;
+    cursor: pointer;
 }
 
 /*Contacto*/
@@ -314,6 +316,7 @@ section.formcontato{
     color: white;
     background-color: rgba(42, 122, 228, 1);
     border: none;
+    cursor: pointer;
 }
 
 /*footeer*/
